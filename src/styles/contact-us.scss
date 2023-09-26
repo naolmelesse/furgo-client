@@ -1,0 +1,75 @@
+.contact-us-wrapper{
+    text-align: center;
+    margin: 5% auto;
+    width: 60%;
+    padding: 2rem;
+    background-color: #dadee7;
+    border-radius: 2%;
+    box-shadow: 2px 2px 10px #AAA;
+    .contact-header{
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        margin-bottom: 2rem;
+    }
+    
+    .contact-title{
+        font-size: 1.5rem;
+    }
+    .contact-form-container{
+        display: flex;
+        justify-content: space-evenly;
+
+        margin: 1rem auto;
+
+
+        label{
+            margin: 0.5rem 0;
+        }
+        input{
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            width: 15vw;
+        }
+        textarea{
+            border-radius: 5%;
+            outline: none;
+            border: none;
+            resize: none;
+        }
+        .left-contact{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .contact-text-box{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            input, textarea{
+                padding: 0.5rem 0.25rem;
+            }
+            margin: 0.5rem 0;
+        }
+    }
+    .submit-btn{
+        cursor: pointer;
+        padding: 0.5rem 0.25rem;
+        width: 15vw;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        color: #FEFEFE;
+        background-color: #398AB9;
+        transition: 0.3s ease;
+        &:hover{
+            background-color: #1c5372;
+        }
+    }
+
+}

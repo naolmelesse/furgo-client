@@ -1,0 +1,39 @@
+.become-a-host-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        margin: 1em 0;
+    }
+    .logo{
+        padding: 2em;
+    }
+    
+    .become-a-host-form{
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        padding-bottom: 2.5em;
+        label{
+            font-size: 0.9em;
+            margin-bottom: 0.5em;
+            color: rgb(145, 145, 145);
+        }
+
+        .textbox{
+            padding: 0.5em 0.25em;
+            margin-bottom: 1em;
+            
+        }
+
+        .submit{
+            padding: 1em 0;
+            background-color: #111;
+            color: #FEFEFE;
+            cursor: pointer;
+        }
+    }
+}
+

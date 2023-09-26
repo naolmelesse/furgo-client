@@ -1,0 +1,18 @@
+.available-cars-wrapper{
+    width: 80vw;
+    margin: auto;
+
+    .cars-title{
+        font-size: 3em;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    .available-cars-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+
+}

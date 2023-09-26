@@ -1,0 +1,46 @@
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30vw;
+    padding: 2rem 1rem;
+    p{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .login-form{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        .input-box{
+            display: flex;
+            flex-direction: column;
+            padding: 0.5rem 0;
+            label{
+                display: block;
+                font-size: 0.8rem;
+                font-weight: 500;
+            }
+
+            input{
+                padding: 0.5rem;
+                border: 1px solid #979797;
+            }
+        }
+        .submit{
+            cursor: pointer;
+            padding: 0.8rem 0;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: none;
+            color: #FEFEFE;
+            background-color: #398AB9;
+            transition: 0.3s ease;
+            margin-top: 1rem;
+            &:hover{
+                background-color: #1c5372;
+            }
+        }
+    }
+}

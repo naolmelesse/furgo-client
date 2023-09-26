@@ -1,0 +1,23 @@
+.testimonial-slider{
+    width: 80vw;
+    margin: 2rem auto;
+    margin-bottom: 10%;
+
+    .slick-prev:before, .slick-next:before{
+        color:#111;
+        font-size: 1.5rem;
+    }
+
+}
+
+.testimonial-text{
+    h2{
+        margin: 1.5rem 0;
+        font-size: 3rem;
+        text-align: center;
+    }
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}

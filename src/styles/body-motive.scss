@@ -1,0 +1,33 @@
+.body-motive-wrapper{
+    width: 70vw;
+    text-align: center;
+    margin: 5% auto;
+    margin-bottom: 10%;
+
+    h2{
+        margin: 1.5rem 0;
+        font-size: 3rem;
+      }
+    p{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .motive-text{
+        margin-bottom: -15%;
+    }
+    .motive-story{
+        position: relative;
+        top: 250px;
+        width: 25%;
+        height: 25%;
+        background-color: #333;
+        p{
+            color: #FEFEFE;
+            padding: 1rem;
+        }
+    }
+    img{
+        width: 70%;
+        margin-left: 10%;
+    }
+}

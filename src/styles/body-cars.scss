@@ -1,0 +1,29 @@
+.body-cars-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    height: 100vh;
+    max-width: 100vw;
+
+    .cars{
+        display: flex;
+        width: 80vw;
+    }
+    
+    .choose-by-make{
+        display: flex;  
+        height: 40%;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .choose-by-category{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+}

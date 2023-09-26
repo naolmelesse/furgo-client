@@ -1,0 +1,29 @@
+.testimonial-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    width: 70%;
+    padding: 2rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 10px rgb(211, 211, 211);
+    .top-host{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+        .host-profile img{
+            width: 100px;
+            border-radius: 95% ;
+        }
+    }
+    .renter-testimonial{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        justify-content: space-between;
+        margin-top: 2rem;
+        width: 100%;
+        
+    }
+}

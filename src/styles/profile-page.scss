@@ -1,0 +1,23 @@
+.profile-page-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    
+    .user-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 50vh;
+
+        img{
+            width: 10rem;
+            border-radius: 100%;
+        }
+    }
+
+    .account-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
